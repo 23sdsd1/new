@@ -14,7 +14,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 // 引入bootstrap-vue.css文件
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-// import BootstrapVue from 'bootstrap-vue';
 
 export default {
 

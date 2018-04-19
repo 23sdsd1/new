@@ -34,7 +34,7 @@
                 </div>
 
                 <div  class="input-prepend">
-                  <input type="text" placeholder="密码">
+                  <input type="text" placeholder="密码" class=" input-password">
                   <i class="fa fa-lock"></i>
                 </div>
                 

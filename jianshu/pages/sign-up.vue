@@ -33,8 +33,8 @@
                   <i class="fa fa-user"></i>
                 </div>
 
-                <div  class="input-prepend">
-                  <input type="text" placeholder="密码">
+                <div  class="input-prepend" >
+                  <input type="text" placeholder="密码" >
                   <i class="fa fa-phone"></i>
                 </div>
                 <div  class="input-prepend ssm">
@@ -59,6 +59,29 @@
                   </p>
 
               </form>
+
+        </div>
+
+
+          <!-- 第三方登录 -->
+        <div class="more-sign">
+              <p class="">社交账号注册</p>
+
+              <ul>
+                  <li>
+                     <nuxt-link to="/">
+                      <i class="weixin fa fa-weixin"></i>
+                     </nuxt-link>
+
+                  </li>
+              
+                   <li>
+                      <nuxt-link to="/">
+                      <i class="qq fa fa-qq"></i>
+                     </nuxt-link>
+                  </li>
+
+              </ul>
 
         </div>
  

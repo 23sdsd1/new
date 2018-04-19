@@ -109,6 +109,10 @@ export default {
   border-bottom: 1px solid #c8c8c8;
   border-radius: 0 0 2px 2px;
 }
+.sign .main form .input-prepend .input-password{
+  border-bottom: 1px solid #c8c8c8;
+  border-radius: 0 0 2px 2px;
+}
 .sign .main form .input-prepend i {
   position: absolute;
   left: 12px;

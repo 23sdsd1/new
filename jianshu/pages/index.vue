@@ -15,7 +15,7 @@
 import myHeader from '../components/myHeader'
 export default {
   head: {
-    title: "简书-创作你得创作",
+    title: "简书-创作你得创作",                                                                                                                
     meta: [
       { charset: "utf-8" },
       { name: "keyword", content: "简书首页" },

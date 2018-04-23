@@ -234,7 +234,7 @@ export default {
     navbarHeader.onclick = function() {
       if (navbarHeader.getAttribute("data-mm") == 1) {
         console.log("333333333333333");
-        section.style.height = "300px";
+        section.style.height = "400px";
         section.style.transition = "all 0.5s";
         navbarHeader.setAttribute("data-mm", 2);
       } else {
@@ -471,7 +471,7 @@ section > .navbarfa > p {
   padding-top: 10px;
 }
 section {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 0px;
   left: 0;
@@ -515,7 +515,7 @@ section .navbarfa form .search-input:focus ~ .search-b {
 }
 section .navbarfa .drop-menu1 {
   position: absolute;
-  top:110px;
+  top:140px;
  
 
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -524,6 +524,7 @@ section .navbarfa .drop-menu1 {
   margin: 0;
   
 }
+
 section .navbarfa:nth-of-type(1){
   margin-top: 10px;
   color: #ea6f5a;
@@ -540,15 +541,26 @@ section .navbarfa:nth-of-type(1){
   display: none;
   position: absolute;
   left: 215px;
-  top: 70px;
+  top: 80px;
   font-size: 20px;
 }
 #o0 {
   display: none;
   position: absolute;
   left: 215px;
-  top: 110px;
+  top: 140px;
   font-size: 20px;
+}
+section > .navbarfa:nth-of-type(2):hover {
+  background: #f5f5f5;
+}
+section > .navbarfa:nth-of-type(3):hover {
+  background: #f5f5f5;
+}
+@media (max-width:2000px){
+  section{
+    display: none;
+  }
 }
 @media (max-width: 1440px) {
   nav .nav-list > li a i {
@@ -559,6 +571,9 @@ section .navbarfa:nth-of-type(1){
   }
   nav .nav-list .search form .search-input:focus {
     width: 200px;
+  }
+  section{
+    display: none;
   }
 }
 

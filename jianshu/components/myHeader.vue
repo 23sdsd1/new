@@ -14,7 +14,7 @@
                   <i class="fa fa-edit">
  
                   </i>
-                   写文章
+                   写好文章
                 </a>
                
             </div>                                    
